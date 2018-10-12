@@ -1,0 +1,12 @@
+mybatis:
+  typeAliasesPackage: com.gopersist.demo.mybatis.entity
+  mapperLocations: classpath:mapper/*.xml
+
+
+spring:
+  datasource:
+    url: jdbc:mysql://rm-bp13nc11wf51bh274o.mysql.rds.aliyuncs.com:3306/mybatisdemo?useUnicode=true&characterEncoding=UTF-8&useSSL=true
+    username: mybatisuser
+    password: abc123
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
